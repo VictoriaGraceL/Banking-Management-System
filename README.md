@@ -36,7 +36,7 @@ IDE (recommended: IntelliJ IDEA, Eclipse, or VS Code with Java extensions)
 
 Installation
 
-Clone the repository
+Clone the repository https://github.com/VictoriaGraceL/Banking-Management-System
 bashgit clone 
 cd banking-management-system
 
