@@ -208,12 +208,8 @@ Update documentation for any new features
 Test thoroughly before submitting pull requests
 
 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-👨‍💻 Author
-Viktoriia Lavrenchuk
+This project is open-source and free to use for learning and personal projects.
 
-GitHub: VictoriaGracel
-Email: victoriagrace984@gmail.com
 
 🙏 Acknowledgments
 
