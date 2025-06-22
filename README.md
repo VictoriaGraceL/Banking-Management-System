@@ -1,14 +1,18 @@
 Banking Management System
+
 A comprehensive Java-based banking management system with a graphical user interface built using Java Swing. This application provides essential banking operations including account creation, login functionality, deposits, withdrawals, and automated fee/interest calculations.
+
 🏦 Features
 Account Management
 
 Multiple Account Types: Support for Personal and Business accounts (Checking and Savings)
+
 Automatic Account Number Generation: Sequential account numbers starting from 10001
 Customer Information Storage: Name, address, email, and phone number tracking
 
 Account Types & Rules
 Account TypeMonthly FeeInterest RateSpecial FeaturesPersonal CheckingNoneNoneBasic checking accountPersonal Savings$20 (if balance < $3000)3% monthly5 free withdrawals/month, $5 fee afterBusiness Checking$20NoneBusiness-focused checkingBusiness Savings$202.5% monthlyBusiness savings with interest
+
 Core Banking Operations
 
 ✅ Account Creation with customer details
@@ -36,18 +40,22 @@ IDE (recommended: IntelliJ IDEA, Eclipse, or VS Code with Java extensions)
 
 Installation
 
+
 Clone the repository https://github.com/VictoriaGraceL/Banking-Management-System
 bashgit clone 
 cd banking-management-system
 
+
 Compile the project
 bashjavac -d bin src/BankingManagementSystem/*.java
+
 
 Run the application
 bashjava -cp bin BankingManagementSystem.Main
 
 
 Alternative: IDE Setup
+
 
 Import the project into your preferred Java IDE
 Ensure all .java files are in the BankingManagementSystem package
@@ -74,6 +82,7 @@ Initial Balance
 Click "Create" to generate the account
 Note down the generated account number for future logins
 
+
 3. Logging In
 
 Click "Login" from the main menu
@@ -83,31 +92,47 @@ Click "Login" to access your account
 4. Account Operations
 Once logged in, you can:
 
+
 View Current Balance
 Make Deposits: Enter amount and click "Deposit"
 Make Withdrawals: Enter amount and click "Withdraw"
 All transactions are processed instantly with balance updates
 
+
 5. Administrative Operations
 The system automatically handles:
+
 
 Monthly fee deductions based on account type
 Interest calculations and deposits
 Withdrawal fee processing for Personal Savings accounts
 
+
 🏗️ Project Structure
 BankingManagementSystem/
-├── Account.java              # Abstract base class for all accounts
-├── AccountManager.java       # Manages collections of accounts
-├── AccountMenu.java         # GUI for individual account operations
-├── BankingSystemTest.java   # Test class with sample operations
-├── BusinessChecking.java   # Business checking account implementation
-├── BusinessSaving.java     # Business savings account implementation
-├── CreateAccount.java      # GUI for account creation
-├── Login.java             # GUI for user authentication
-├── Main.java             # Application entry point and main GUI
-├── PersonalChecking.java # Personal checking account implementation
-└── PersonalSaving.java   # Personal savings account implementation
+
+ Account.java              # Abstract base class for all accounts
+ 
+ AccountManager.java       # Manages collections of accounts
+
+ AccountMenu.java         # GUI for individual account operations
+ 
+ BankingSystemTest.java   # Test class with sample operations
+
+BusinessChecking.java   # Business checking account implementation
+
+ BusinessSaving.java     # Business savings account implementation
+ 
+ CreateAccount.java      # GUI for account creation
+
+Login.java             # GUI for user authentication
+ 
+ Main.java             # Application entry point and main GUI
+ 
+ PersonalChecking.java # Personal checking account implementation
+ 
+ PersonalSaving.java   # Personal savings account implementation
+
 🔧 Technical Details
 Architecture Patterns
 
